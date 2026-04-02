@@ -26,7 +26,7 @@ Abra o terminal na pasta do projeto e execute os seguintes comandos para compila
 ## Como Rodar no Terminal do MAC IOS
 
 ### 1. Entrar na pasta do projeto
-* cd ProjetoHuffman
+* cd Documents/ProjetoHuffman
 
 ### 2. Compilar o código
 **Compile o arquivo código-fonte Java para gerar as classes executáveis (.class):**
