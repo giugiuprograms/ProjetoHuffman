@@ -16,9 +16,30 @@ Projeto desenvolvido para a disciplina de Estrutura de Dados II. O objetivo dest
 
 Certifique-se de ter o Java (JDK) instalado na sua máquina.
 
-### 1. Compilar e Empacotar
+### Compilar e Empacotar
 Abra o terminal na pasta do projeto e execute os seguintes comandos para compilar as classes e gerar o arquivo executável `.jar`:
 
-```bash
-javac Huffman.java
-jar cfe huffman.jar Huffman *.class
+* javac Huffman.java
+* jar cfe huffman.jar Huffman *.class
+
+---
+## Como Rodar no Terminal do MAC IOS
+
+### 1. Entrar na pasta do projeto
+* cd ProjetoHuffman
+
+### 2. Compilar o código
+**Compile o arquivo código-fonte Java para gerar as classes executáveis (.class):**
+* javac Huffman.java
+
+### 3. Gerar o pacote executável (.jar)
+**O programa foi construído para funcionar via linha de comando através de um pacote .jar**
+* jar cfe huffman.jar Huffman *.class
+
+### 4. Testar a Compressão
+**Vamos usar o algoritmo para comprimir o arquivo arq_de_teste.txt que já vem na pasta:**
+* java -jar huffman.jar c arq_de_teste.txt arquivo_comprimido.huff
+
+### 5. Testar a Descompressão
+**Para comprovar que a compressão ocorreu sem perdas, vamos restaurar o arquivo à sua forma original:**
+* java -jar huffman.jar d arquivo_comprimido.huff arquivo_restaurado.txt
