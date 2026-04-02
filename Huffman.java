@@ -5,10 +5,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 // Nomes dos integrantes do grupo:
-// 1. [Seu Nome]
-// 2. [Nome do Colega]
-// 3. [Nome do Colega]
-// 4. [Nome do Colega]
+// 1. Diego Teruya RA:10723404
+// 2. Gabriel Rodrigues RA:10409071
+// 3. Giulia Araki RA:10408954
+// 4. Leonardo Soto RA:10729329
 
 public class Huffman {
 
